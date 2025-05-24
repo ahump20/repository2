@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.clip {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.metric {
+  font-weight: bold;
+}
+
+.context {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.link {
+  color: blue;
+  font-size: 14px;
+}
