@@ -71,3 +71,7 @@ The main logic for chat will be found in the `Chat` component in `app/components
 ## Feedback
 
 Let us know if you have any thoughts, questions, or feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScn_RSBryMXCZjCyWV4_ebctksVvQYWkrq90iN21l1HLv3kPg/viewform?usp=sf_link)!
+
+## Sports API Integration Example
+
+For a quick example of integrating a third-party sports data service, see [INTEGRATION_GUIDE.md](./INTEGRATION_GUIDE.md). It outlines how to obtain an API key from Sportsdata.io and make a sample request.
