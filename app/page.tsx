@@ -8,6 +8,7 @@ const Home = () => {
     "Basic chat": "basic-chat",
     "Function calling": "function-calling",
     "File search": "file-search",
+    "Gemini demo": "gemini",
     All: "all",
   };
 

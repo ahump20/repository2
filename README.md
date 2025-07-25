@@ -14,10 +14,11 @@ git clone https://github.com/openai/openai-assistants-quickstart.git
 cd openai-assistants-quickstart
 ```
 
-### 2. Set your [OpenAI API key](https://platform.openai.com/api-keys)
+### 2. Set your API keys
 
 ```shell
 export OPENAI_API_KEY="sk_..."
+export GEMINI_API_KEY="ai_..."
 ```
 
 (or in `.env.example` and rename it to `.env`).
@@ -40,7 +41,7 @@ npm run dev
 
 You can deploy this project to Vercel or any other platform that supports Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fopenai%2Fopenai-assistants-quickstart&env=OPENAI_API_KEY,OPENAI_ASSISTANT_ID&envDescription=API%20Keys%20and%20Instructions&envLink=https%3A%2F%2Fgithub.com%2Fopenai%2Fopenai-assistants-quickstart%2Fblob%2Fmain%2F.env.example)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fopenai%2Fopenai-assistants-quickstart&env=OPENAI_API_KEY,OPENAI_ASSISTANT_ID,GEMINI_API_KEY&envDescription=API%20Keys%20and%20Instructions&envLink=https%3A%2F%2Fgithub.com%2Fopenai%2Fopenai-assistants-quickstart%2Fblob%2Fmain%2F.env.example)
 
 ## Overview
 
