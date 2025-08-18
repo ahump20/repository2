@@ -71,3 +71,24 @@ The main logic for chat will be found in the `Chat` component in `app/components
 ## Feedback
 
 Let us know if you have any thoughts, questions, or feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScn_RSBryMXCZjCyWV4_ebctksVvQYWkrq90iN21l1HLv3kPg/viewform?usp=sf_link)!
+
+---
+
+## Blaze Backyard Prototype
+
+This repository also includes a minimal Python prototype of **Blaze Backyard**, a data-driven batting game. The prototype demonstrates a simple game loop:
+
+1. **Scout** – randomly pick a pitcher and display a short scouting report.
+2. **Prepare** – choose a batter from `players.csv` (randomly in this demo).
+3. **Perform** – simulate a swing using basic timing logic.
+4. **Analyze** – show the batter's updated experience.
+
+### Running the prototype
+
+Ensure you have Python 3 installed. Then run:
+
+```bash
+python3 -m blaze_backyard.game
+```
+
+Optional CSV files `players.csv` and `pitchers.csv` can customize rosters and pitching data. Example files are included.
