@@ -71,3 +71,7 @@ The main logic for chat will be found in the `Chat` component in `app/components
 ## Feedback
 
 Let us know if you have any thoughts, questions, or feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScn_RSBryMXCZjCyWV4_ebctksVvQYWkrq90iN21l1HLv3kPg/viewform?usp=sf_link)!
+
+## Documentation
+
+Additional resources are available in the [docs](docs/) directory. For a detailed overview of the Blaze Intelligence scouting ecosystem, see [blaze_intelligence.md](docs/blaze_intelligence.md).
