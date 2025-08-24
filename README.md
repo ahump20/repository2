@@ -5,6 +5,10 @@ A quick-start template using the OpenAI [Assistants API](https://platform.openai
 <br/>
 ![OpenAI Assistants API Quickstart](https://github.com/openai/openai-assistants-quickstart/assets/27232/755e85e9-3ea4-421f-b202-3b0c435ea270)
 
+## Blaze Intelligence
+
+This repository now includes a starter portal for **Blaze Intelligence**, expanding research across college sports, NIL, MLB, NFL, NBA, high school football, and Perfect Game baseball.
+
 ## Quickstart Setup
 
 ### 1. Clone repo
@@ -72,6 +76,3 @@ The main logic for chat will be found in the `Chat` component in `app/components
 
 Let us know if you have any thoughts, questions, or feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScn_RSBryMXCZjCyWV4_ebctksVvQYWkrq90iN21l1HLv3kPg/viewform?usp=sf_link)!
 
-## Documentation
-
-Additional resources are available in the [docs](docs/) directory. For a detailed overview of the Blaze Intelligence scouting ecosystem, see [blaze_intelligence.md](docs/blaze_intelligence.md).
