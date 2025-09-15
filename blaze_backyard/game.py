@@ -43,9 +43,19 @@ class Game:
         print(f"Player XP: {self.current_player.xp}, Contact now {self.current_player.contact}")
 
 
+def default_players():
+    return [Player("Default Batter", 50, 50)]
+
+def default_pitchers():
+    return [Pitcher(
+        "Default Pitcher",
+        {"fastball": 0.5, "curve": 0.3, "change": 0.2},
+        {"high": 0.3, "middle": 0.4, "low": 0.3}
+    )]
+
 def main():
-    players = load_players(Path("players.csv")) if Path("players.csv").exists() else [Player("Default Batter", 50, 50)]
-    pitchers = load_pitchers(Path("pitchers.csv")) if Path("pitchers.csv").exists() else [Pitcher("Default Pitcher", {"fastball": 0.5, "curve": 0.3, "change": 0.2}, {"high": 0.3, "middle": 0.4, "low": 0.3})]
+    players = load_players(Path("players.csv")) if Path("players.csv").exists() else default_players()
+    pitchers = load_pitchers(Path("pitchers.csv")) if Path("pitchers.csv").exists() else default_pitchers()
     game = Game(players, pitchers)
     game.scout()
     game.prepare()
