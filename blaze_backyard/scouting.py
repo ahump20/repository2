@@ -11,5 +11,6 @@ def summarize_pitcher(pitcher: Pitcher) -> Dict[str, str]:
         "main_pitch": main_pitch,
         "fastball_pct": f"{distribution.get('fastball', 0)*100:.0f}%",
         "curve_pct": f"{distribution.get('curve', 0)*100:.0f}%",
+        "change_pct": f"{distribution.get('change', 0)*100:.0f}%",
     }
     return summary
