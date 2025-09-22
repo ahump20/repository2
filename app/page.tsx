@@ -2,25 +2,19 @@
 
 import React from "react";
 import styles from "./page.module.css";
+import { sportsCategories } from "./sports/categories";
 
 const Home = () => {
-  const categories = {
-    "Basic chat": "basic-chat",
-    "Function calling": "function-calling",
-    "File search": "file-search",
-    "Film study": "film-study",
-    All: "all",
-  };
-
   return (
     <main className={styles.main}>
-      <div className={styles.title}>
-        Explore sample apps built with Assistants API
-      </div>
+      <div className={styles.title}>Blaze Intelligence Research Portal</div>
       <div className={styles.container}>
-        {Object.entries(categories).map(([name, url]) => (
-          <a key={name} className={styles.category} href={`/examples/${url}`}>
-            {name}
+        <a className={styles.category} href="/minecraft">
+          BlazeCraft Prototype
+        </a>
+        {sportsCategories.map((cat) => (
+          <a key={cat.id} className={styles.category} href={`/sports/${cat.id}`}>
+            {cat.name}
           </a>
         ))}
       </div>
